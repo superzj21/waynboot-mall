@@ -6,7 +6,7 @@
 
 | Category | Technologies |
 | --- | --- |
-| Base Framework | Spring Boot 3.1.4, Java 17 |
+| Base Framework | Spring Boot 3.5.14, Java 17 |
 | Web and Security | Spring MVC, admin Spring Security + JWT, mobile Sa-Token |
 | Data Access | MyBatis-Plus, MySQL, Druid |
 | Cache | Redis, Lettuce, Lua scripts |

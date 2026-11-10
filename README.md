@@ -6,7 +6,7 @@
 
 | 分类 | 技术 |
 | --- | --- |
-| 基础框架 | Spring Boot 3.1.4、Java 17 |
+| 基础框架 | Spring Boot 3.5.14、Java 17 |
 | Web 与安全 | Spring MVC、后台 Spring Security + JWT、移动端 Sa-Token |
 | 数据访问 | MyBatis-Plus、MySQL、Druid |
 | 缓存 | Redis、Lettuce、Lua 脚本 |
