@@ -7,6 +7,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.NoHandlerFoundException;
+import org.springframework.web.servlet.resource.NoResourceFoundException;
 
 import java.util.Objects;
 
@@ -46,6 +47,15 @@ public class GlobalExceptionHandler {
     public R<Void> handlerNoFoundException(Exception e) {
         log.error(e.getMessage(), e);
         return R.error(ReturnCodeEnum.NOT_FOUND);
+    }
+
+    /**
+     * 全局异常
+     */
+    @ExceptionHandler(NoResourceFoundException.class)
+    public R<Void> handleNoResourceFoundException(NoResourceFoundException e) {
+        log.debug(e.getMessage(), e);
+        return R.error();
     }
 
     /**

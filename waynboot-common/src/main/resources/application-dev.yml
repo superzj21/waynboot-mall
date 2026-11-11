@@ -63,16 +63,16 @@ es:
 shop:
     # 开发者应该设置成自己的wx相关信息
     wxpay:
-        app-id:
+        app-id: wx74862e0dfcf69954
         app-secret:
-        mch-id:
+        mch-id: 1558950191
         mch-key:
-        api-v3key: ""
+        api-v3key: "UDuLFDcmy5Eb6o0nTNZdu6ek4DDh4K8B"
         # 将v3支付证书解压放到项目resource文件夹下
         key-path: "classpath:apiclient_cert.p12"
         private-cert-path: "classpath:apiclient_cert.pem"
         private-key-path: "classpath:apiclient_key.pem"
-        notify-url: xxxxx
+        notify-url: http://11dc857.r9.cpolar.cn
     # alipay
     alipay:
         app-id:
@@ -92,5 +92,5 @@ shop:
         notify-url: xxxxx
 
 wx:
-    appId: ""
-    appSecret: ""
+    appId: "wxe142f7ddce2c4944"
+    appSecret: "40bb64245a211246d03ddc7a287be650"
